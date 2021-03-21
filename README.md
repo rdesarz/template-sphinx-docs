@@ -26,3 +26,10 @@ rm -rf .git
 ```
 sphinx-build -b html source build
 ```
+
+# (Optional) Use `plantuml`
+
+Makefile is already updated to handle plantuml diagrams. You simply need to install plantuml
+```
+sudo apt-get install plantuml
+```
