@@ -12,9 +12,17 @@ python3 -m venv venv
 source venv/bin/activate
 pip3 install sphinx sphinx_rtd_theme
 ```
-3. Update `conf.py` with corresponding theme
+3. Clone repository in a `docs` folder
+```
+git clone git@github.com:rdesarz/template-sphinx-docs.git docs
+```
+4. Update `conf.py` with corresponding theme
 
-4. Delete .git folder
+5. Delete .git folder
 ```
 rm -rf .git
+```
+6. Build docs
+```
+sphinx-build -b html source build
 ```
