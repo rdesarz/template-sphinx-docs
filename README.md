@@ -1,5 +1,5 @@
 # template-sphinx-docs
-A template to quickly start a Sphinx documentation
+A template for a Sphinx documentation
 
 # Install and build using venv
 
